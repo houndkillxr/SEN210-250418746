@@ -1,17 +1,25 @@
-# app1
+my first cafe finder app
 
-A new Flutter project.
+PROJECT TITLE Brew&Chill – Your Cafe Finder App
 
-## Getting Started
+RESEARCH PROBLEM 
+People often struggle to find the right cafe for working, studying, or relaxing. There’s no quick way to check how busy a cafe is, how quiet it is, or its rating before going.
 
-This project is a starting point for a Flutter application.
+MOTIVATION 
+This project helps users discover cafes that match their preferences by showing cafe ratings, noise level, busy status, available tables, and user reviews, all in a clean and simple mobile interface.
 
-A few resources to get you started if this is your first Flutter project:
+CONTROL FLOW
+User opens the app → sees list of cafes with name, rating, busy status, and noise level
+User can search for a cafe by name
+User taps on a cafe → navigates to details page
+Details page shows: rating, busy status, noise level, number of free tables, and sample reviews
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+IMPLEMENTATION STRATEGY
+Flutter: Build the entire app using Flutter widgets for cross-platform mobile development
+Dart: Handle cafe data, randomize free tables, manage state for search and navigation
+UI Design: Beige and brown color scheme, intuitive layout, responsive card design, simple header with title and subtitle
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+DEPLOYMENT
+Fully functional on Android, iOS (via Flutter), and web
+Can be run locally with Flutter using flutter run
+All code available in a public repository for learning and demonstration purposes
